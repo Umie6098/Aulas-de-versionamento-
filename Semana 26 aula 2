@@ -1,0 +1,24 @@
+RabbitMQ é um sistema de mensagens open-source que implementa o padrão AMQP (Advanced Message Queuing Protocol). Ele permite que aplicações se comuniquem de maneira assíncrona, facilitando a troca de dados entre diferentes serviços ou componentes de uma arquitetura.
+
+Principais Características:
+1- Mensageria Assíncrona: Permite que mensagens sejam enviadas e recebidas independentemente, melhorando a escalabilidade e a resiliência das aplicações.
+
+2- Filas: As mensagens são armazenadas em filas, onde podem ser processadas por consumidores. Isso ajuda a desacoplar os produtores de mensagens dos consumidores.
+
+3- Roteamento: RabbitMQ suporta diferentes métodos de roteamento de mensagens, como tópicos, filas diretas e cabeçalhos, permitindo flexibilidade na entrega.
+
+4- Persistência: As mensagens podem ser persistidas no disco para garantir que não sejam perdidas em caso de falhas.
+
+5- Alta Disponibilidade: RabbitMQ suporta configuração de clusters, permitindo a replicação de filas e a tolerância a falhas.
+
+6- Plugins e Extensibilidade: Possui um sistema de plugins que permite adicionar funcionalidades, como suporte a diferentes protocolos de mensagens.
+
+Casos de Uso:
+
+Microservices: Facilita a comunicação entre serviços em uma arquitetura de microserviços.
+
+Processamento de Eventos: Usado para gerenciar fluxos de trabalho baseados em eventos, como em sistemas de e-commerce.
+
+Desacoplamento: Ajuda a desacoplar sistemas legados de novas aplicações, permitindo uma integração mais fluida.
+
+RabbitMQ é amplamente utilizado em diversas indústrias e é conhecido por sua confiabilidade e robustez, sendo uma escolha popular para aplicações que exigem comunicação eficiente entre diferentes partes de um sistema.
